@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "115548174412",
+    "firebase_url": "https://reloader-45699.firebaseio.com",
+    "project_id": "reloader-45699",
+    "storage_bucket": "reloader-45699.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115548174412:android:9505d837f96cb5ad",
+        "android_client_info": {
+          "package_name": "ke.co.stashare.reloader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115548174412-km9tuc0qhocpsvgs5rcjgrbvo23ammp3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ke.co.stashare.reloader",
+            "certificate_hash": "5b455ba38dafbd35b1dcb65a21cdd1c64be94c48"
+          }
+        },
+        {
+          "client_id": "115548174412-aq30v0pbl0olhqvj4767vadgi0srv4es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANmla6nOvuzuK-ca4lJSxyAAzYEcavhBY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115548174412-aq30v0pbl0olhqvj4767vadgi0srv4es.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

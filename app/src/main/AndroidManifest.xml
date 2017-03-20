@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ke.co.stashare.reloader" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <supports-screens android:anyDensity="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:smallScreens="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeB" >
+
+        <activity android:name=".SecondPage"
+            android:theme="@style/AppThemeB.CenterAnimation">
+
+        <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <activity android:name=".TestWebview"/>
+        <activity android:name=".HideShowAndroidEditTextPassword"/>
+        <activity android:name=".Prototype"/>
+        <activity android:name=".LogIn"/>
+        <activity android:name=".OnboardingWithCenterAnimationActivity"/>
+        <activity android:name=".FirstPage"
+            android:noHistory="true"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".Signup_fcm"/>
+        <activity android:name=".ProfileActivity"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Bundles"
+            android:noHistory="true"/>
+
+
+    </application>
+
+</manifest>

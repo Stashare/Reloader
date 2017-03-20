@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:orientation="horizontal" >
+    <ScrollView
+        android:fadeScrollbars="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/sim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sim_card" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/buttonSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_lock_outline_36b" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="8dp">
+
+            <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+                android:id="@+id/key"
+                android:layout_width="match_parent"
+                android:maxLength="7"
+                android:layout_height="wrap_content"
+                android:hint="Enter the product key to proceed"
+                app:drawable_hide="@drawable/ic_visibility_off_36"
+                app:drawable_show="@drawable/ic_visibility_on_36" >
+
+                <requestFocus/>
+            </com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <GridLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_gravity="fill_horizontal"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <Button
+                android:text="Proceed"
+                android:textSize="16sp"
+                android:id="@+id/proceed"
+                android:textStyle="bold"
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <Button
+                android:text="CANCEL"
+                android:textStyle="bold"
+                android:id="@+id/cancel"
+                android:textSize="16sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </GridLayout>
+
+
+</LinearLayout>
+
+
+
+    </ScrollView>
+
+    </LinearLayout>

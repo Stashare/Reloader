@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@color/type_message_light"
+    app:elevation="@dimen/default_elevation"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="top"
+            android:id="@+id/redeem_text"
+            android:visibility="gone"
+            android:textSize="16sp"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="bold"
+            android:text="Redeeming:"
+            android:layout_height="wrap_content" />
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="top"
+            android:id="@+id/tally"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:layout_marginStart="3dp"
+            android:textColor="@color/cardview_light_background"
+            android:textStyle="bold"
+            android:text="1"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>

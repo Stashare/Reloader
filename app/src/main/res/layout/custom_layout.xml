@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_height="fill_parent"
+    android:fadeScrollbars="false"
+    android:fitsSystemWindows="true">
+
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_gravity="fill_horizontal"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <Button
+            android:text="EXIT"
+            android:textSize="16dp"
+            android:id="@+id/block"
+            android:textStyle="bold"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button
+            android:text="CANCEL"
+            android:textStyle="bold"
+            android:id="@+id/cancel"
+            android:textSize="16dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</GridLayout>
+    </ScrollView>

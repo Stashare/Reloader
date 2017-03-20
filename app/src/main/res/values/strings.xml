@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Reloader</string>
+    <string name="enter_a_web_address">type a web address</string>
+    <string name="refresh">Refresh</string>
+    <string name="exit">Exit</string>
+
+</resources>
